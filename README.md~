@@ -1,2 +1,1 @@
-GMU-Midterm-1-QGit
-==================
+Add youtube link for Q3
