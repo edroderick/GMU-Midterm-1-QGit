@@ -90,7 +90,7 @@ for x in range(0,steps):
 	simSleep(state.time, .5, state)
 legstate = 0 #centered over left foot, right leg raised, standing up straight
 
-
+'''
 for x in range(0, 2):
 	[statuss, framesizes] = s.get(state, wait=False, last=False)
 
@@ -120,7 +120,7 @@ for x in range(0, 2):
 		simSleep(state.time, 1, state)
 
 		legstate = 0
-
+'''
 ref.ref[ha.RSR] = state.joint[ha.RSP].pos - math.pi/8
 r.put(ref)
 
